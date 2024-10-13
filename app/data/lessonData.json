@@ -1,0 +1,31 @@
+{
+  "blocks": [
+    {
+      "id": "block1",
+      "title": "Foundations of Rome",
+      "lessons": [
+        {
+          "id": "lesson1",
+          "title": "The Founding Myth",
+          "tasks": [
+            {
+              "id": "task1",
+              "type": "multipleChoice",
+              "question": "Who were the legendary founders of Rome?",
+              "possibleAnswers": [
+                "Romulus and Remus",
+                "Caesar and Brutus",
+                "Hannibal and Scipio",
+                "Augustus and Livia"
+              ],
+              "correctAnswerIndex": 0,
+              "hint": "Think of twin brothers raised by a wolf.",
+              "introText": "Rome's foundation is steeped in myth and legend.",
+              "postSolutionText": "Romulus and Remus were twin brothers said to be raised by a she-wolf. Romulus eventually founded Rome, naming it after himself."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

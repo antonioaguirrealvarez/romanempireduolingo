@@ -1,0 +1,27 @@
+{
+  "undefined": {
+    "userId": "undefined",
+    "livesUsed": 3,
+    "currentStreak": null,
+    "daysUsingApp": 1,
+    "lessonsCompleted": [
+      "lesson1",
+      "lesson2"
+    ],
+    "tasksWithErrors": []
+  },
+  "user1": {
+    "userId": "user1",
+    "livesUsed": 3,
+    "currentStreak": 0,
+    "daysUsingApp": 1,
+    "lessonsCompleted": [
+      "lesson1",
+      "lesson2",
+      "lesson3",
+      "lesson4",
+      "lesson1"
+    ],
+    "tasksWithErrors": []
+  }
+}

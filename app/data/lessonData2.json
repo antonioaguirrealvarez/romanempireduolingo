@@ -1,0 +1,706 @@
+{
+    "blocks": [
+      {
+        "id": "block1",
+        "title": "Foundations of Rome",
+        "lessons": [
+          {
+            "id": "lesson1",
+            "title": "The Founding Myth",
+            "tasks": [
+              {
+                "id": "task1",
+                "type": "multipleChoice",
+                "question": "Who were the legendary founders of Rome?",
+                "possibleAnswers": [
+                  "Romulus and Remus",
+                  "Caesar and Brutus",
+                  "Hannibal and Scipio",
+                  "Augustus and Livia"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "Think of twin brothers raised by a wolf.",
+                "introText": "Rome's foundation is steeped in myth and legend.",
+                "postSolutionText": "Romulus and Remus were twin brothers said to be raised by a she-wolf. Romulus eventually founded Rome, naming it after himself."
+              },
+              {
+                "id": "task2",
+                "type": "matching",
+                "question": "Match the Roman gods with their Greek counterparts:",
+                "possibleAnswers": [
+                  {"Roman": "Jupiter", "Greek": "Zeus"},
+                  {"Roman": "Venus", "Greek": "Aphrodite"},
+                  {"Roman": "Mars", "Greek": "Ares"},
+                  {"Roman": "Neptune", "Greek": "Poseidon"}
+                ],
+                "correctAnswerIndex": [0, 1, 2, 3],
+                "hint": "Many Roman gods have similar roles to Greek gods.",
+                "introText": "Roman mythology was heavily influenced by Greek mythology.",
+                "postSolutionText": "Romans adopted many Greek gods, often giving them new names but similar attributes and stories."
+              },
+              {
+                "id": "task3",
+                "type": "fillInTheBlank",
+                "question": "Rome was founded in the year ___ BCE on the banks of the ___ River.",
+                "possibleAnswers": [
+                  ["753", "725", "800"],
+                  ["Tiber", "Po", "Rubicon"]
+                ],
+                "correctAnswerIndex": [0, 0],
+                "hint": "The traditional founding date is in the 8th century BCE.",
+                "introText": "The founding of Rome has a traditional date accepted by ancient Romans.",
+                "postSolutionText": "753 BCE is the traditional founding date of Rome, located on the banks of the Tiber River."
+              },
+              {
+                "id": "task4",
+                "type": "trueFalse",
+                "question": "The early Roman Kingdom was ruled by elected consuls.",
+                "possibleAnswers": [
+                  "True",
+                  "False"
+                ],
+                "correctAnswerIndex": 1,
+                "hint": "Consider the term 'kingdom' carefully.",
+                "introText": "Rome's government evolved over time, starting with a different system.",
+                "postSolutionText": "False. The early Roman Kingdom was ruled by kings, not consuls. Consuls came later with the Roman Republic."
+              },
+              {
+                "id": "task5",
+                "type": "multipleChoice",
+                "question": "What was the social class of the common people in ancient Rome?",
+                "possibleAnswers": [
+                  "Plebeians",
+                  "Patricians",
+                  "Equites",
+                  "Consuls"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This class made up the majority of Roman citizens.",
+                "introText": "Roman society was divided into distinct social classes.",
+                "postSolutionText": "Plebeians were the common people of Rome, distinct from the patrician elite."
+              }
+            ]
+          },
+          {
+            "id": "lesson2",
+            "title": "The Roman Republic",
+            "tasks": [
+              {
+                "id": "task1",
+                "type": "multipleChoice",
+                "question": "In what year was the Roman Republic established?",
+                "possibleAnswers": [
+                  "509 BCE",
+                  "753 BCE",
+                  "27 BCE",
+                  "476 CE"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "It was established shortly after the overthrow of the last king.",
+                "introText": "The Roman Republic replaced the Roman Kingdom.",
+                "postSolutionText": "The Roman Republic was established in 509 BCE after the overthrow of Lucius Tarquinius Superbus, the last Roman king."
+              },
+              {
+                "id": "task2",
+                "type": "matching",
+                "question": "Match the Roman offices with their responsibilities:",
+                "possibleAnswers": [
+                  {"Office": "Consul", "Responsibility": "Chief executive and military commander"},
+                  {"Office": "Tribune", "Responsibility": "Protect the rights of plebeians"},
+                  {"Office": "Censor", "Responsibility": "Maintain the census and oversee public morality"},
+                  {"Office": "Quaestor", "Responsibility": "Oversee financial affairs and assist governors"}
+                ],
+                "correctAnswerIndex": [0, 1, 2, 3],
+                "hint": "Each office had specific roles in the Roman government.",
+                "introText": "The Roman Republic had various political offices with distinct responsibilities.",
+                "postSolutionText": "These offices formed the core of the Roman Republican government, each with crucial roles in maintaining the state."
+              },
+              {
+                "id": "task3",
+                "type": "fillInTheBlank",
+                "question": "The highest legislative assembly in the Roman Republic was called the ___ ___.",
+                "possibleAnswers": [
+                  ["Centuriate", "Tribal", "Plebeian"],
+                  ["Assembly", "Committee", "Senate"]
+                ],
+                "correctAnswerIndex": [0, 0],
+                "hint": "This assembly was organized on the basis of military units.",
+                "introText": "Rome had several assemblies, each with different powers and compositions.",
+                "postSolutionText": "The Centuriate Assembly was the highest-ranking assembly, organized on the basis of military units called centuries."
+              },
+              {
+                "id": "task4",
+                "type": "trueFalse",
+                "question": "The Roman Senate had the power to pass laws on its own.",
+                "possibleAnswers": [
+                  "True",
+                  "False"
+                ],
+                "correctAnswerIndex": 1,
+                "hint": "Consider the role of assemblies in law-making.",
+                "introText": "The Roman Senate was a powerful body, but had specific limitations.",
+                "postSolutionText": "False. While influential, the Senate could not pass laws on its own. Laws had to be approved by one of the assemblies."
+              },
+              {
+                "id": "task5",
+                "type": "multipleChoice",
+                "question": "What was the name of the law code that formed the foundation of Roman civil law?",
+                "possibleAnswers": [
+                  "The Twelve Tables",
+                  "The Justinian Code",
+                  "The Hammurabi Code",
+                  "The Magna Carta"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This code was created in the early Republic and displayed publicly in the Forum.",
+                "introText": "Early Roman law was codified to protect plebeian rights.",
+                "postSolutionText": "The Twelve Tables, created around 450 BCE, were the foundation of Roman civil law and were displayed publicly for all citizens to read."
+              }
+            ]
+          },
+          {
+            "id": "lesson3",
+            "title": "Roman Society and Culture",
+            "tasks": [
+              {
+                "id": "task1",
+                "type": "multipleChoice",
+                "question": "What was the basic unit of Roman society?",
+                "possibleAnswers": [
+                  "The family (familia)",
+                  "The tribe (tribus)",
+                  "The guild (collegium)",
+                  "The century (centuria)"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This unit was headed by the paterfamilias.",
+                "introText": "Roman society was built on fundamental social structures.",
+                "postSolutionText": "The family, or 'familia', was the basic unit of Roman society, headed by the paterfamilias who held significant power over family members."
+              },
+              {
+                "id": "task2",
+                "type": "matching",
+                "question": "Match the Roman clothing items with their descriptions:",
+                "possibleAnswers": [
+                  {"Item": "Toga", "Description": "Long, draped garment worn by male citizens"},
+                  {"Item": "Stola", "Description": "Long, pleated dress worn by married women"},
+                  {"Item": "Tunica", "Description": "Basic undergarment worn by both sexes"},
+                  {"Item": "Palla", "Description": "Shawl or cloak worn by women"}
+                ],
+                "correctAnswerIndex": [0, 1, 2, 3],
+                "hint": "Each item had a specific role in Roman fashion.",
+                "introText": "Roman clothing was diverse and often indicated social status.",
+                "postSolutionText": "Roman clothing was not just for practicality but also signified social status, gender, and occasion."
+              },
+              {
+                "id": "task3",
+                "type": "fillInTheBlank",
+                "question": "The most popular form of entertainment in Rome was the ___ held in the ___.",
+                "possibleAnswers": [
+                  ["gladiatorial games", "chariot races", "theater performances"],
+                  ["Colosseum", "Circus Maximus", "Forum"]
+                ],
+                "correctAnswerIndex": [0, 0],
+                "hint": "These violent spectacles involved trained fighters.",
+                "introText": "Romans enjoyed various forms of public entertainment.",
+                "postSolutionText": "Gladiatorial games held in the Colosseum were the most popular entertainment, showcasing combat between gladiators or against wild animals."
+              },
+              {
+                "id": "task4",
+                "type": "trueFalse",
+                "question": "Latin was the only language spoken throughout the Roman Empire.",
+                "possibleAnswers": [
+                  "True",
+                  "False"
+                ],
+                "correctAnswerIndex": 1,
+                "hint": "Consider the diversity of the empire and the influence of Greek culture.",
+                "introText": "The Roman Empire encompassed many cultures and languages.",
+                "postSolutionText": "False. While Latin was the official language, Greek was widely spoken in the eastern provinces, and local languages persisted in many areas."
+              },
+              {
+                "id": "task5",
+                "type": "multipleChoice",
+                "question": "What was the Roman system of patronage called?",
+                "possibleAnswers": [
+                  "Clientela",
+                  "Cursus honorum",
+                  "Pax Romana",
+                  "Res publica"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This system involved a reciprocal relationship between patrons and clients.",
+                "introText": "Social relationships in Rome often involved complex systems of obligation and favor.",
+                "postSolutionText": "The clientela system was a fundamental part of Roman society, where powerful patrons provided protection and favors to clients in exchange for political support."
+              }
+            ]
+          },
+          {
+            "id": "lesson4",
+            "title": "Roman Law and Governance",
+            "tasks": [
+              {
+                "id": "task1",
+                "type": "multipleChoice",
+                "question": "What was the highest judicial official in the Roman Republic?",
+                "possibleAnswers": [
+                  "Praetor",
+                  "Consul",
+                  "Censor",
+                  "Tribune"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This official was responsible for the administration of justice.",
+                "introText": "The Roman legal system had various officials with specific roles.",
+                "postSolutionText": "The Praetor was the highest judicial official, responsible for the administration of justice and the development of Roman law."
+              },
+              {
+                "id": "task2",
+                "type": "matching",
+                "question": "Match the legal concepts with their descriptions:",
+                "possibleAnswers": [
+                  {"Concept": "Ius civile", "Description": "Civil law applicable to Roman citizens"},
+                  {"Concept": "Ius gentium", "Description": "Law of nations, applicable to non-citizens"},
+                  {"Concept": "Ius naturale", "Description": "Natural law, based on reason and equity"},
+                  {"Concept": "Ius honorarium", "Description": "Law created by magistrates' edicts"}
+                ],
+                "correctAnswerIndex": [0, 1, 2, 3],
+                "hint": "These concepts formed the basis of Roman legal thinking.",
+                "introText": "Roman law was divided into several branches or concepts.",
+                "postSolutionText": "These different branches of law show the complexity and sophistication of the Roman legal system, which greatly influenced modern Western law."
+              },
+              {
+                "id": "task3",
+                "type": "fillInTheBlank",
+                "question": "The ___ ___ was a Roman citizen's right to appeal to the people's assembly against a magistrate's decision.",
+                "possibleAnswers": [
+                  ["Provocatio", "Habeas", "Ius"],
+                  ["ad populum", "corpus", "publicum"]
+                ],
+                "correctAnswerIndex": [0, 0],
+                "hint": "This right was a fundamental protection against arbitrary punishment.",
+                "introText": "Roman citizens had certain legal rights and protections.",
+                "postSolutionText": "Provocatio ad populum was an important right that allowed citizens to appeal to the people's assembly, serving as a check on magistrates' power."
+              },
+              {
+                "id": "task4",
+                "type": "trueFalse",
+                "question": "The concept of 'innocent until proven guilty' originated in Roman law.",
+                "possibleAnswers": [
+                  "True",
+                  "False"
+                ],
+                "correctAnswerIndex": 1,
+                "hint": "Consider the differences between ancient and modern legal principles.",
+                "introText": "Many modern legal principles have roots in ancient systems, but not all.",
+                "postSolutionText": "False. While Roman law was advanced for its time, 'innocent until proven guilty' is a more modern legal principle. Roman trials often placed the burden of proof on the accused."
+              },
+              {
+                "id": "task5",
+                "type": "multipleChoice",
+                "question": "What was the name of the supreme executive magistrate in the Roman Republic?",
+                "possibleAnswers": [
+                  "Consul",
+                  "Dictator",
+                  "Emperor",
+                  "Princeps"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This office was held by two individuals simultaneously for a one-year term.",
+                "introText": "The Roman Republic had various important magistracies.",
+                "postSolutionText": "Consuls were the highest-ranking magistrates in the Roman Republic. Two were elected each year to share power and prevent any individual from becoming too powerful."
+              }
+            ]
+          },
+          {
+            "id": "lesson5",
+            "title": "Roman Religion",
+            "tasks": [
+              {
+                "id": "task1",
+                "type": "multipleChoice",
+                "question": "Who was the chief deity of the Roman pantheon?",
+                "possibleAnswers": [
+                  "Jupiter",
+                  "Mars",
+                  "Neptune",
+                  "Apollo"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This god was equivalent to the Greek Zeus.",
+                "introText": "The Roman pantheon included many gods and goddesses.",
+                "postSolutionText": "Jupiter was the king of the gods in Roman religion, associated with the sky, thunder, and lightning. He was equivalent to the Greek Zeus."
+              },
+              {
+                "id": "task2",
+                "type": "matching",
+                "question": "Match the Roman gods with their domains:",
+                "possibleAnswers": [
+                  {"God": "Mars", "Domain": "War"},
+                  {"God": "Venus", "Domain": "Love and Beauty"},
+                  {"God": "Neptune", "Domain": "Sea"},
+                  {"God": "Ceres", "Domain": "Agriculture"}
+                ],
+                "correctAnswerIndex": [0, 1, 2, 3],
+                "hint": "Each god had specific areas of influence in Roman life.",
+                "introText": "Roman gods were associated with various aspects of life and nature.",
+                "postSolutionText": "Roman gods had specific domains that reflected important aspects of Roman life and the natural world."
+              },
+              {
+                "id": "task3",
+                "type": "fillInTheBlank",
+                "question": "The ___ were priestesses who maintained the sacred fire of ___.",
+                "possibleAnswers": [
+                  ["Vestal Virgins", "Augurs", "Flamens"],
+                  ["Vesta", "Jupiter", "Mars"]
+                ],
+                "correctAnswerIndex": [0, 0],
+                "hint": "These priestesses took a vow of chastity and served for 30 years.",
+                "introText": "Some Roman religious offices had very specific and important duties.",
+                "postSolutionText": "The Vestal Virgins were priestesses of Vesta, goddess of the hearth. They maintained the sacred fire in the Temple of Vesta, which was never allowed to go out."
+              },
+              {
+                "id": "task4",
+                "type": "trueFalse",
+                "question": "The Roman state religion was monotheistic.",
+                "possibleAnswers": [
+                  "True",
+                  "False"
+                ],
+                "correctAnswerIndex": 1,
+                "hint": "Consider the number of gods in the Roman pantheon.",
+                "introText": "Religious beliefs varied across the long history of Rome.",
+                "postSolutionText": "False. Roman state religion was polytheistic, worshipping many gods and goddesses. Monotheism became significant later with the rise of Christianity."
+              },
+              {
+                "id": "task5",
+                "type": "multipleChoice",
+                "question": "What was the practice of interpreting the will of the gods by studying the flight of birds?",
+                "possibleAnswers": [
+                  "Augury",
+                  "Haruspicy",
+                  "Divination",
+                  "Prophecy"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This practice was performed by special priests called augurs.",
+                "introText": "Romans had various methods of seeking divine guidance.",
+                "postSolutionText": "Augury was the practice of interpreting omens from the observed flight of birds. It was an important part of Roman state religion and decision-making."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "block2",
+        "title": "The Roman Empire",
+        "lessons": [
+          {
+            "id": "lesson1",
+            "title": "The Rise of the Empire",
+            "tasks": [
+              {
+                "id": "task1",
+                "type": "multipleChoice",
+                "question": "Who is considered the first Roman Emperor?",
+                "possibleAnswers": [
+                  "Augustus",
+                  "Julius Caesar",
+                  "Tiberius",
+                  "Claudius"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "He was born as Octavian and was Julius Caesar's adopted heir.",
+                "introText": "The transition from Republic to Empire was gradual and complex.",
+                "postSolutionText": "Augustus, born as Octavian, became the first Roman Emperor after defeating Mark Antony and Cleopatra in 31 BCE."
+              },
+              {
+                "id": "task2",
+                "type": "matching",
+                "question": "Match the emperors with their dynasties:",
+                "possibleAnswers": [
+                  {"Emperor": "Tiberius", "Dynasty": "Julio-Claudian"},
+                  {"Emperor": "Vespasian", "Dynasty": "Flavian"},
+                  {"Emperor": "Trajan", "Dynasty": "Nerva-Antonine"},
+                  {"Emperor": "Septimius Severus", "Dynasty": "Severan"}
+                ],
+                "correctAnswerIndex": [0, 1, 2, 3],
+                "hint": "Each dynasty is named after its founding emperor or family.",
+                "introText": "The Roman Empire was ruled by several dynasties over its history.",
+                "postSolutionText": "These dynasties represent different periods of the Roman Empire, each with its own characteristics and achievements."
+              },
+              {
+                "id": "task3",
+                "type": "fillInTheBlank",
+                "question": "The ___ ___ was a period of relative peace and stability in the Roman Empire.",
+                "possibleAnswers": [
+                  ["Pax", "Bellum", "Imperium"],
+                  ["Romana", "Italica", "Augusta"]
+                ],
+                "correctAnswerIndex": [0, 0],
+                "hint": "This Latin phrase means 'Roman Peace'.",
+                "introText": "The early Roman Empire saw a long period of relative peace and prosperity.",
+                "postSolutionText": "The Pax Romana, or 'Roman Peace', lasted approximately from 27 BCE to 180 CE, marked by relative peace and stability in the empire."
+              },
+              {
+                "id": "task4",
+                "type": "trueFalse",
+                "question": "The Roman Senate was abolished with the establishment of the Empire.",
+                "possibleAnswers": [
+                  "True",
+                  "False"
+                ],
+                "correctAnswerIndex": 1,
+                "hint": "Consider how Augustus and later emperors maintained a facade of republican institutions.",
+                "introText": "The transition to empire involved changes in political institutions.",
+                "postSolutionText": "False. The Senate continued to exist under the Empire, though with diminished power. Emperors often used it to maintain a veneer of republican tradition."
+              },
+              {
+                "id": "task5",
+                "type": "multipleChoice",
+                "question": "What was the Praetorian Guard?",
+                "possibleAnswers": [
+                  "The emperor's personal bodyguard",
+                  "The Roman navy",
+                  "A group of tribal chiefs",
+                  "The Senate's security force"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "They were an elite unit based in Rome, with significant political influence.",
+                "introText": "Security was a major concern for Roman emperors.",
+                "postSolutionText": "The Praetorian Guard was the emperor's personal bodyguard. They became increasingly powerful, often playing a role in imperial politics and successions."
+              }
+            ]
+          },
+          {
+            "id": "lesson2",
+            "title": "Roman Military Conquests",
+            "tasks": [
+              {
+                "id": "task1",
+                "type": "multipleChoice",
+                "question": "Which famous general crossed the Alps with elephants to attack Rome?",
+                "possibleAnswers": [
+                  "Hannibal",
+                  "Scipio Africanus",
+                  "Julius Caesar",
+                  "Pompey the Great"
+                ],
+                "correctAnswerIndex": 0,
+                "hint": "This Carthaginian general led the invasion during the Second Punic War.",
+                "introText": "Rome faced many external threats throughout its history.",
+                "postSolutionText": "Hannibal Barca, the Carthaginian general, famously crossed the Alps with elephants in 218 BCE during the Second Punic War."
+              },
+              {
+                "id": "task2",
+                "type": "matching",
+                "question": "Match the Roman provinces with their modern-day locations:",
+                "possibleAnswers": [
+                  {"Province": "Britannia", "Modern Location": "Britain"},
+                  {"Province": "Gaul", "Modern Location": "France"},
+                  {"Province": "Hispania", "Modern Location": "Spain and Portugal"},
+                  {"Province": "Aegyptus", "Modern Location": "Egypt"}
+                ],
+                "correctAnswerIndex": [0, 1, 2, 3],
+                "hint": "Roman provinces often correspond to modern countries or regions.",
+                "introText": "The Roman Empire encompassed a vast territory across Europe, North Africa, and the Middle East.",
+                "postSolutionText": "These provinces represent some of the major territories of the Roman Empire, showing its vast extent across different regions."
+              },
+              {
+              "id": "task3",
+              "type": "fillInTheBlank",
+              "question": "The Roman ___ was a wheeled vehicle used for various purposes, including warfare and racing.",
+              "possibleAnswers": [
+                ["chariot", "carriage", "wagon"]
+              ],
+              "correctAnswerIndex": [0],
+              "hint": "This vehicle was famously used in the Circus Maximus.",
+              "introText": "Romans used various vehicles for transportation and entertainment.",
+              "postSolutionText": "The Roman chariot was a key technology, used in warfare, ceremonial processions, and famously in chariot races at the Circus Maximus."
+            },
+            {
+              "id": "task4",
+              "type": "trueFalse",
+              "question": "The Romans invented the arch in architecture.",
+              "possibleAnswers": [
+                "True",
+                "False"
+              ],
+              "correctAnswerIndex": 1,
+              "hint": "Consider earlier civilizations that used arches.",
+              "introText": "The arch was a crucial element in Roman architecture.",
+              "postSolutionText": "False. While Romans perfected and extensively used the arch, it was invented earlier. The Romans, however, were the first to fully exploit its potential in architecture and engineering."
+            },
+            {
+              "id": "task5",
+              "type": "multipleChoice",
+              "question": "What Roman invention was used for lifting heavy objects in construction?",
+              "possibleAnswers": [
+                "Crane",
+                "Pulley",
+                "Lever",
+                "Wheel"
+              ],
+              "correctAnswerIndex": 0,
+              "hint": "This device used a combination of pulleys and levers.",
+              "introText": "Romans developed various machines to aid in construction.",
+              "postSolutionText": "The crane was a significant Roman invention that greatly facilitated the construction of large buildings and monuments. It used a system of pulleys and levers to lift heavy objects."
+            }
+          ]
+        },
+        {
+          "id": "lesson4",
+          "title": "Roman Art and Architecture",
+          "tasks": [
+            {
+              "id": "task1",
+              "type": "multipleChoice",
+              "question": "Which of these is NOT a Roman architectural order?",
+              "possibleAnswers": [
+                "Ionic",
+                "Doric",
+                "Corinthian",
+                "Roman"
+              ],
+              "correctAnswerIndex": 3,
+              "hint": "Three of these are Greek orders adopted by Romans.",
+              "introText": "Romans adopted and adapted Greek architectural styles.",
+              "postSolutionText": "The Ionic, Doric, and Corinthian orders were Greek styles adopted by Romans. The 'Roman' order is not a recognized architectural order."
+            },
+            {
+              "id": "task2",
+              "type": "matching",
+              "question": "Match the Roman buildings with their functions:",
+              "possibleAnswers": [
+                {"Building": "Pantheon", "Function": "Temple to all gods"},
+                {"Building": "Colosseum", "Function": "Amphitheater for gladiatorial games"},
+                {"Building": "Circus Maximus", "Function": "Chariot racing venue"},
+                {"Building": "Forum", "Function": "Center of political and social activity"}
+              ],
+              "correctAnswerIndex": [0, 1, 2, 3],
+              "hint": "Each building had a specific role in Roman public life.",
+              "introText": "Roman architecture served various social, political, and religious functions.",
+              "postSolutionText": "These iconic Roman buildings showcase the diversity of Roman architecture and its importance in public life."
+            },
+            {
+              "id": "task3",
+              "type": "fillInTheBlank",
+              "question": "Roman sculpture was known for its ___, especially in portrait busts and statues.",
+              "possibleAnswers": [
+                ["realism", "abstraction", "impressionism"]
+              ],
+              "correctAnswerIndex": [0],
+              "hint": "Roman artists aimed to capture true likenesses, including flaws.",
+              "introText": "Roman art had distinct characteristics that set it apart from other ancient styles.",
+              "postSolutionText": "Roman sculpture, particularly portraiture, was renowned for its realism. Artists aimed to capture accurate likenesses, including imperfections, unlike the idealized forms in Greek art."
+            },
+            {
+              "id": "task4",
+              "type": "trueFalse",
+              "question": "Mosaics were only used for floor decoration in Roman buildings.",
+              "possibleAnswers": [
+                "True",
+                "False"
+              ],
+              "correctAnswerIndex": 1,
+              "hint": "Consider all possible surfaces in a Roman building.",
+              "introText": "Mosaics were a popular form of Roman art.",
+              "postSolutionText": "False. While often used for floors, Roman mosaics also decorated walls and ceilings. They were used in both public buildings and private homes, depicting various scenes and patterns."
+            },
+            {
+              "id": "task5",
+              "type": "multipleChoice",
+              "question": "What type of painting was commonly used to decorate the walls of Roman houses?",
+              "possibleAnswers": [
+                "Fresco",
+                "Oil painting",
+                "Watercolor",
+                "Acrylic"
+              ],
+              "correctAnswerIndex": 0,
+              "hint": "This technique involves painting on wet plaster.",
+              "introText": "Romans had various techniques for decorating their homes.",
+              "postSolutionText": "Fresco painting, done on wet plaster, was widely used in Roman wall decoration. Many examples have been preserved in places like Pompeii and Herculaneum."
+            }
+          ]
+        },
+        {
+          "id": "lesson5",
+          "title": "The Fall of Rome",
+          "tasks": [
+            {
+              "id": "task1",
+              "type": "multipleChoice",
+              "question": "In which year did the Western Roman Empire fall?",
+              "possibleAnswers": [
+                "476 CE",
+                "410 CE",
+                "500 CE",
+                "330 CE"
+              ],
+              "correctAnswerIndex": 0,
+              "hint": "This date marks the deposition of the last Western Roman Emperor.",
+              "introText": "The fall of Rome was a gradual process, but historians often point to a specific date.",
+              "postSolutionText": "476 CE is traditionally considered the fall of the Western Roman Empire, when the last emperor, Romulus Augustulus, was deposed by Odoacer."
+            },
+            {
+              "id": "task2",
+              "type": "matching",
+              "question": "Match these factors with their roles in Rome's decline:",
+              "possibleAnswers": [
+                {"Factor": "Germanic invasions", "Role": "External military pressure"},
+                {"Factor": "Economic troubles", "Role": "Inflation and heavy taxation"},
+                {"Factor": "Political instability", "Role": "Frequent civil wars and coups"},
+                {"Factor": "Overexpansion", "Role": "Difficulty in administering vast territories"}
+              ],
+              "correctAnswerIndex": [0, 1, 2, 3],
+              "hint": "Rome's fall was due to a combination of internal and external factors.",
+              "introText": "Many factors contributed to the decline of the Roman Empire.",
+              "postSolutionText": "The fall of Rome was a complex process involving multiple interconnected factors, both internal and external to the empire."
+            },
+            {
+              "id": "task3",
+              "type": "fillInTheBlank",
+              "question": "The Eastern Roman Empire, also known as the ___ Empire, continued for nearly 1000 years after the fall of the West.",
+              "possibleAnswers": [
+                ["Byzantine", "Ottoman", "Holy Roman"]
+              ],
+              "correctAnswerIndex": [0],
+              "hint": "This empire was centered around Constantinople.",
+              "introText": "The Eastern part of the Roman Empire had a different fate than the West.",
+              "postSolutionText": "The Byzantine Empire, centered in Constantinople, continued the Roman legacy in the East until 1453 CE, nearly a millennium after the fall of the Western Empire."
+            },
+            {
+              "id": "task4",
+              "type": "trueFalse",
+              "question": "The adoption of Christianity as the official religion contributed to the fall of Rome.",
+              "possibleAnswers": [
+                "True",
+                "False"
+              ],
+              "correctAnswerIndex": 1,
+              "hint": "Consider the timing of Christianity's adoption and Rome's fall.",
+              "introText": "The role of religion in Rome's fall is a subject of historical debate.",
+              "postSolutionText": "False. While some historians have argued this, Christianity became the official religion long after Rome's decline began. The Eastern Empire, which was Christian, survived for centuries longer."
+            },
+            {
+              "id": "task5",
+              "type": "multipleChoice",
+              "question": "Which 'barbarian' leader sacked Rome in 410 CE?",
+              "possibleAnswers": [
+                "Alaric",
+                "Attila",
+                "Odoacer",
+                "Theodoric"
+              ],
+              "correctAnswerIndex": 0,
+              "hint": "He was the king of the Visigoths.",
+              "introText": "Rome faced several invasions in its later years.",
+              "postSolutionText": "Alaric, king of the Visigoths, sacked Rome in 410 CE. This event shocked the Roman world and is often seen as a key moment in the empire's decline."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
