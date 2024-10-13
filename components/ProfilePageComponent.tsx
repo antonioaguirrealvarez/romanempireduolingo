@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Trophy, Book, Clock } from 'lucide-react'
+import Image from 'next/image'
 
 export function ProfilePageComponent() {
   const [loading, setLoading] = useState(false)
@@ -40,7 +41,7 @@ export function ProfilePageComponent() {
       <Card className="p-6">
         {user ? (
           <div>
-            <img src={user.photoURL} alt="Profile" className="w-20 h-20 rounded-full mb-4" />
+            <Image src={user.photoURL} alt="Profile" width={80} height={80} className="rounded-full mb-4" />
             <h2 className="text-2xl font-semibold">{user.displayName}</h2>
             <p className="text-gray-600 mb-4">{user.email}</p>
             <Button onClick={() => setUser(null)}>Sign Out</Button>

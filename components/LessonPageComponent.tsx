@@ -106,7 +106,7 @@ export function LessonPageComponent({ id }: { id: string }) {
       const rightColumnTitle = Object.keys(randomizedTask.possibleAnswers[0])[1]
       
       const pairs: { [key: string]: string } = {}
-      randomizedTask.possibleAnswers.forEach(pair => {
+      randomizedTask.possibleAnswers.forEach((pair: { [key: string]: string }) => {
         pairs[pair[leftColumnTitle]] = pair[rightColumnTitle]
       })
       
@@ -220,7 +220,7 @@ export function LessonPageComponent({ id }: { id: string }) {
   }
 
   const checkMatchingPair = (left: string, right: string) => {
-    const isCorrect = randomizedTask.possibleAnswers.some(pair => 
+    const isCorrect = randomizedTask.possibleAnswers.some((pair: { [key: string]: string }) => 
       Object.values(pair)[0] === left && Object.values(pair)[1] === right
     )
     
