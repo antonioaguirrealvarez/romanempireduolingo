@@ -6,10 +6,23 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Trophy, Book, Clock } from 'lucide-react'
 import Image from 'next/image'
 
+interface User {
+  displayName: string;
+  email: string;
+  photoURL: string;
+}
+
+interface UserStats {
+  totalLessonsCompleted: number;
+  averageScore: number;
+  totalTimeSpent: number;
+  achievements: string[];
+}
+
 export function ProfilePageComponent() {
   const [loading, setLoading] = useState(false)
-  const [user, setUser] = useState(null)
-  const [userStats, setUserStats] = useState({
+  const [user, setUser] = useState<User | null>(null)
+  const [userStats, setUserStats] = useState<UserStats>({
     totalLessonsCompleted: 0,
     averageScore: 0,
     totalTimeSpent: 0,
