@@ -290,6 +290,7 @@ export function LessonPageComponent({ id }: { id: string }) {
           />
         </div>
         <p className="text-sm text-gray-600">Progress: {progress.toFixed(1)}%</p>
+        <p className="text-sm text-gray-600">Let&apos;s learn about {currentTask.title}</p>
         <TheoryBox
           showTheory={showTheory}
           setShowTheory={setShowTheory}

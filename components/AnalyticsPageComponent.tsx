@@ -130,7 +130,7 @@ export function AnalyticsPageComponent({ userId }: { userId: string }) {
               <BookOpen className="text-[#FFD700]" />
             </div>
             <p className="text-4xl font-bold text-[#8B4513]">{userProgress.lessonsCompleted.length}</p>
-            <p className="text-sm text-gray-600">Keep expanding your knowledge!</p>
+            <p className="text-sm text-gray-600">You&apos;re making great progress!</p>
           </Card>
         </motion.div>
         <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}>
