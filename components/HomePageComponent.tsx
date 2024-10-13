@@ -26,6 +26,55 @@ interface Block {
   lessons: Lesson[]
 }
 
+interface HeaderProps {
+  streak: number | null;
+  daysUsingApp: number | null;
+  lives: number | null;
+}
+
+function Header({ streak, daysUsingApp, lives }: HeaderProps) {
+  if (streak === null || daysUsingApp === null || lives === null) {
+    return <div>Loading...</div> // or any loading placeholder
+  }
+
+  return (
+    <motion.header 
+      className="bg-gradient-to-r from-[#8B4513] to-[#A0522D] text-white p-4 flex justify-between items-center sticky top-0 z-10 shadow-lg"
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <h1 className="text-2xl font-bold">Roman Empire</h1>
+      <div className="flex items-center space-x-6">
+        <motion.div 
+          className="flex items-center"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <Flame className="text-[#FFD700] mr-2" />
+          <span className="font-semibold">{streak} lesson streak</span>
+        </motion.div>
+        <motion.div 
+          className="flex items-center"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <Calendar className="text-[#FFD700] mr-2" />
+          <span className="font-semibold">{daysUsingApp} days</span>
+        </motion.div>
+        <motion.div 
+          className="flex items-center"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <Heart className="text-[#FFD700] mr-2" />
+          <span className="font-semibold">{lives} lives</span>
+        </motion.div>
+      </div>
+    </motion.header>
+  )
+}
+
 export function HomePageComponent() {
   const [blocks, setBlocks] = useState<Block[]>([])
   const [userProgress, setUserProgress] = useState<UserProgress | null>(null)
@@ -123,49 +172,6 @@ export function HomePageComponent() {
       </main>
       <BottomMenu />
     </div>
-  )
-}
-
-function Header({ streak, daysUsingApp, lives }) {
-  if (streak === null || daysUsingApp === null || lives === null) {
-    return <div>Loading...</div> // or any loading placeholder
-  }
-
-  return (
-    <motion.header 
-      className="bg-gradient-to-r from-[#8B4513] to-[#A0522D] text-white p-4 flex justify-between items-center sticky top-0 z-10 shadow-lg"
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-    >
-      <h1 className="text-2xl font-bold">Roman Empire</h1>
-      <div className="flex items-center space-x-6">
-        <motion.div 
-          className="flex items-center"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          <Flame className="text-[#FFD700] mr-2" />
-          <span className="font-semibold">{streak} lesson streak</span>
-        </motion.div>
-        <motion.div 
-          className="flex items-center"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          <Calendar className="text-[#FFD700] mr-2" />
-          <span className="font-semibold">{daysUsingApp} days</span>
-        </motion.div>
-        <motion.div 
-          className="flex items-center"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          <Heart className="text-[#FFD700] mr-2" />
-          <span className="font-semibold">{lives} lives</span>
-        </motion.div>
-      </div>
-    </motion.header>
   )
 }
 

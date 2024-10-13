@@ -11,6 +11,7 @@ import { useRouter } from 'next/navigation'
 import { Button } from "@/components/ui/button"
 import Link from 'next/link'
 import { BottomMenu } from './HomePageComponent'  // Import BottomMenu from HomePageComponent
+import { UserProgress } from '../utils/userProgress'
 
 // This data should ideally come from an API or be calculated based on user actions
 const weeklyActivityData = [
@@ -22,6 +23,11 @@ const weeklyActivityData = [
   { name: 'Sat', lessons: 6 },
   { name: 'Sun', lessons: 3 },
 ]
+
+interface ErrorTask {
+  lessonId: string;
+  taskId: string;
+}
 
 export function AnalyticsPageComponent({ userId }: { userId: string }) {
   const [userProgress, setUserProgress] = useState<UserProgress | null>(null);
@@ -140,7 +146,7 @@ export function AnalyticsPageComponent({ userId }: { userId: string }) {
               <AlertTriangle className="text-[#FFD700]" />
             </div>
             <ul className="space-y-2">
-              {userProgress.tasksWithErrors.map((error, index) => (
+              {userProgress.tasksWithErrors.map((error: ErrorTask, index: number) => (
                 <li key={index} className="bg-[#FFF8E1] p-3 rounded-lg">
                   <p className="font-semibold text-[#8B4513]">Lesson ID: {error.lessonId}</p>
                   <p className="text-sm text-gray-600">Task ID: {error.taskId}</p>

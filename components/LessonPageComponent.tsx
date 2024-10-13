@@ -20,6 +20,13 @@ import { SolutionDisplay } from './SolutionDisplay'
 import { shuffleArray } from '../utils/arrayUtils'
 import { getUserProgress, updateUserProgress, UserProgress } from '../utils/userProgress'
 
+interface RandomizedTask {
+  type: string;
+  possibleAnswers: any[];
+  correctAnswerIndex: number | number[];
+  // Add other properties as needed
+}
+
 export function LessonPageComponent({ id }: { id: string }) {
   const [tasks, setTasks] = useState<any[]>([])
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0)
@@ -87,10 +94,10 @@ export function LessonPageComponent({ id }: { id: string }) {
 
   const currentTask = tasks[currentTaskIndex]
 
-  const randomizedTask = useMemo(() => {
+  const randomizedTask = useMemo<RandomizedTask | null>(() => {
     if (!currentTask) return null;
     
-    const randomizedTask = { ...currentTask };
+    const randomizedTask: RandomizedTask = { ...currentTask };
     
     if (randomizedTask.type === 'multipleChoice') {
       const shuffledAnswers = shuffleArray([...randomizedTask.possibleAnswers]);
