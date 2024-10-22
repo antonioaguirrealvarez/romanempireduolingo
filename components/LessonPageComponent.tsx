@@ -87,10 +87,10 @@ export function LessonPageComponent({ id }: { id: string }) {
   }, [id, userId])
 
   const progress = useMemo(() => {
-    const calculatedProgress = ((currentTaskIndex + 1) / tasks.length) * 100;
-    console.log(`Progress: ${calculatedProgress}%, CurrentTaskIndex: ${currentTaskIndex}, TotalTasks: ${tasks.length}`);
-    return calculatedProgress;
-  }, [currentTaskIndex, tasks.length]);
+    const calculatedProgress = tasks.length > 0 ? Math.round(((currentTaskIndex + 1) / tasks.length) * 100) : 0
+    console.log(`Progress: ${calculatedProgress}%, CurrentTaskIndex: ${currentTaskIndex}, TotalTasks: ${tasks.length}`)
+    return calculatedProgress
+  }, [currentTaskIndex, tasks.length])
 
   const currentTask = tasks[currentTaskIndex]
 
@@ -289,14 +289,11 @@ export function LessonPageComponent({ id }: { id: string }) {
           <Flame className="text-[#FFD700]" />
           <span className="text-[#8B4513] font-bold">{streak} 🔥</span>
         </div>
-        {/* Update the Progress component usage */}
-        <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-          <Progress 
-            value={progress} 
-            className="w-full h-2.5 rounded-full bg-[#FFD700]" 
-          />
+        {/* Ensure the Progress component is rendered */}
+        <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4">
+          <Progress value={progress} className="w-full h-2.5 rounded-full bg-[#FFD700]" />
         </div>
-        <p className="text-sm text-gray-600">Progress: {progress.toFixed(1)}%</p>
+        <p className="text-sm text-gray-600">Progress: {progress}%</p>
         <p className="text-sm text-gray-600">Let&apos;s learn about {currentTask.title}</p>
         <TheoryBox
           showTheory={showTheory}
